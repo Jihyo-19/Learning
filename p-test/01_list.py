@@ -20,13 +20,8 @@ import sys
 # 3*0.1 =0.300000000000004
 #str()  转换成字符串输出
 
-
 messgae = " Albert Einstein said, \"A peroson who nerver made a mistake never tried anything new.\" "
 print(messgae.title().lower())  
-
-
-
-
 
 
 list =['a','b','c','d','E','a']   #pyhon 用 [] 表示列表,并且用逗号分隔其中的元素.
