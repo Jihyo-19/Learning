@@ -9,16 +9,18 @@ import this
 
 import sys
 
+'''
+title() 以首字母大写的方式显示每个单词
+lower()  小写    
+upper()  大写
+rstrip()  删除末尾空白
+lstrip()  删除行首空白
+strip()  删除空白
+print在python2 中是不需要括号的.
+3*0.1 =0.300000000000004
+str()  转换成字符串输出
+'''
 
-# title() 以首字母大写的方式显示每个单词
-# lower()  小写    
-# upper()  大写
-# rstrip()  删除末尾空白
-# lstrip()  删除行首空白
-# strip()  删除空白
-# print在python2 中是不需要括号的.
-# 3*0.1 =0.300000000000004
-#str()  转换成字符串输出
 
 messgae = " Albert Einstein said, \"A peroson who nerver made a mistake never tried anything new.\" "
 print(messgae.title().lower())  
