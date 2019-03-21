@@ -3,6 +3,8 @@
 # python 版本3.7.2           
 # 编辑器  vs code 
  
+
+#coding:utf-8  编码格式
 # python 之禅
 import this 
 
@@ -47,6 +49,6 @@ print(list)
 name ='請告訴我你的名字：'
 a=''
 while a !='zyan' :
-      a =input('請告訴我你的名字：')
-      print('歡迎您，'+a)
-      print("您不是系統級用戶，故無法退出！")
+      a =input('请告訴我你的名字：')
+      print('欢迎您，'+a)
+      print("您不是root用戶，所以即将退出！")
