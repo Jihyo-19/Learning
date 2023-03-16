@@ -1,4 +1,4 @@
-# Date: 2019/02/16   zyan
+# Date: 2019/02/16   
 # 这是一个练习python的文档
 # python 版本3.7.2           
 # 编辑器  vs code 
@@ -30,9 +30,9 @@ print(messgae.title().lower())
 
 list =['a','b','c','d','E','a']   #pyhon 用 [] 表示列表,并且用逗号分隔其中的元素.
 print(list[-1].title())   
-list[0]='zhaoyan'   
+list[0]=''   
 list.append('amos')  # 末尾添加元素
-list.insert(2,'lizhuang') # 指定位置插入元素
+list.insert(2,'') # 指定位置插入元素
 
 
 # 删除之后不再使用,就用del   
@@ -48,7 +48,7 @@ print(list)
 
 name ='請告訴我你的名字：'
 a=''
-while a !='zyan' :
+while a !='' :
       a =input('请告訴我你的名字：')
       print('欢迎您，'+a)
       print("您不是root用戶，所以即将退出！")
